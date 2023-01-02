@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <br>
+    <h1>Contact</h1>
+    <p>For any enquiries, please email me using the form below.</p>
+    <h3>How can I help?</h3>
+    <ul>
+      <li>Email: madis.bobrovski@gmail.com</li>
+      <li>Phone: 5624362142</li>
+      <li>Website: www.madisbobrovski.com</li>
+    </ul>
+    <h3>Get in touch</h3>
+    <form action="mailto:madis.bobrovski@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="subject">Subject: </label><br>
+        <input type="text" name="subject" id="subject"><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="50" rows="10"></textarea><br>
+        <label for="human">Are you a human?</label>
+        <input type="radio" id="yes" name="human" value="male">
+        <input type="radio" id="no" name="human" value="female"><br>
+        <input type="submit" value="Send Email" formtarget="_blank">
+    </form>
+    <hr>
+    <p><em>Here's a <a href="form_elements.html">page</a> containing different form elements.</em></p>
+    </body>
+
+</html>
